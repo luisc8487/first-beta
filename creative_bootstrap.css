@@ -1,0 +1,243 @@
+
+.navbar-default{
+    background-color: transparent;
+    font-family: "Opem Sans","Helvetica Neue", Arial, sans-serif;
+}
+                        /*"BO3" title on the navbar*/
+.navbar .navbar-brand{
+    color:rgb(180,180,180);
+    font-weight: 600;
+    font-size: 30px;
+    padding:15px 15px;
+    
+}
+                    /*navbar on the right side list*/
+.navbar .navbar-right li a{
+    color:rgb(180,180,180);
+    font-weight:600;
+    font-size:18px;
+}
+                    /*the about is off on the navbar*/
+.navbar .navbar-right li a about{
+    margin-bottom:10px 10px;
+    height:10px;
+} 
+.navbar-right{
+    margin-right: 10px;
+    text-align: center;
+}
+                         /*background-image*/
+.bo3{
+    width:100%;
+    min-height: 100%;
+    -webkit-filter: blur(5px);
+    filter:blur(5px);
+    height:960px;
+}
+header{
+    min-height: 100%;
+    min-width:100%;
+    background-position: center;
+}
+header .header-content{
+    position: absolute;
+    top:30%;
+    min-height:20%;
+    transform: translateY(20%);
+    transform: translateX(0%);
+    padding: 0px 50px;
+    text-align: center;
+    min-width: 100%;
+}
+            /*the text thats on top of the blur bo3 image*/
+header .header-content .header-content-inner{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+                    /*the title of the wwebpage*/
+header .header-content .header-content-inner h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Opem Sans", "Helvetica Neue", Arial, sans-serif;
+    color:white;
+    font-weight: bold;
+}
+             /*the block under the title of the webpage*/
+header .header-content .header-content-inner hr{
+    margin:30px auto;
+    border-color: #F05F40;
+    border-width: 3px;
+    max-width: 50px;
+}
+header .header-content .header-content-inner p{
+    color: rgba(255,255,255,.7);
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.btn-x1{
+    padding: 15px 30px;
+    border-radius: 300px;
+    border:none;
+    text-transform: uppercase;
+    background-color: #F05F40;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top:15px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+              /*dont forget about cursor pointer when making a button*/
+    cursor: pointer;
+    /*touch-action:manipulation;*/
+}
+.btn-x1:active{
+    /*color:blue;*/
+}
+           /*Issue the change the button to blue when clicked*/
+.btn-x1:hover {
+    background-color: #F05F40;
+}
+.btn-primary{
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top:15px;
+}
+                        /*assign orange background-color*/
+.bg-primary{
+    background-color: #F05F40;
+    /*margin-top: 15px;*/
+    min-height: 80%;
+}
+                /*spacing between bg-primary and container*/
+section{
+    padding: 80px 0;
+}
+.container{
+    min-height: 80%;
+    min-width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.row{
+    /*min-width: 80%;*/
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-8{
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.section-header{
+    margin-top: 0px;
+    font-family: "Opem Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 30px;
+    /*for some reason font-weight 500 is normal but 700 gets texts even thicker*/
+    font-weight: 500;
+    margin-bottom: -10px;
+    text-align: center;
+}
+hr.light{
+    border-color: #fff;
+    border-width:3px;
+    max-width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-faded{
+    font-family: "Opem Sans", "Helvetica Neue", Arial, sans-serif;
+    color:rgba(255,255,255,.7);
+    font-size: 16px;
+    margin-bottom: 20px;
+    /*line-height is basically the amount of spacing between each line*/
+    line-height: 1.5;
+}
+.btn-default{
+    background-color: #fff;
+    border-color:#ccc;
+    text-align: center;
+    margin-left: px;
+}
+.btn-default:hover{
+    background-color: #ccc
+}
+.container-fluid{
+    padding: 60px 50px;
+    margin-left: auto;
+    margin-right:auto;
+    min-height: 80%;
+}
+.container-fluid hr{
+    border-color: #F05F40;
+    border-width: 3px;
+    max-width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+.logo-small{
+    color: #F05F40;
+    font-size:50px;
+    
+}
+.glyphicon{
+    position: relative;
+    top: 1px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: "Glyphicons Halflings";
+    -webkit-font-smoothing:antialiased;
+}
+.slide{
+    visibility: visible;
+}
+.slideanim{
+    /*visibility: hidden;*/
+}
+h4{
+    font-size: 19px;
+    color:black;
+    font-weight:400;
+    margin-bottom: 30px;
+                /*the width of text inside that line*/
+    line-height: 1.375em;
+}
+.container-fluid p{
+    color: rgb(100,100,100);
+    margin:0 0 30px;
+}
+.col-lg-12{
+    transform: translate(-16%,10%);
+    position: relative;
+    padding-right:15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    
+}
+.col-md-4portfolio-item .iframe{
+    min-width: 70%;
+}
+.content-wrapper{
+    width:345px ;
+}
+ h3{
+    color:white;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 30px;
+    line-height: 1.375em;
+}
+ /*@media screen and (max-width: 768px) {*/
+ /*   .col-sm-4 {*/
+ /*     text-align: center;*/
+ /*     margin: 25px 0;*/
+ /*   }*/
