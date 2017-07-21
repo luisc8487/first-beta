@@ -1,0 +1,159 @@
+/*.navbar-brand{*/
+/*    color: blue;*/
+/*}*/
+.navbar-right{
+   margin-right: 10px;
+}
+header .header-content{
+    position: absolute;
+    top: 30%;
+    height:350px;
+    transform: translateY(20%);
+    transform: translateX(1%);
+    padding:0px 50px;
+    text-align: center;
+    width:1850px;
+    /*border:10px, 10px;*/
+}
+header .header-content .header-content-inner{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto
+    height:200px;
+}
+
+/*.jumbotron,{*/
+    /*background-image: url(https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTc5E07z9MxQbE8_zf3dfkHAvhUwKypArmlH_DooaTu0fAepALRpk7CbTmrRH92u0iXMyYI9BfQpaqm9u6aVB4fmTTv4fLgWrsqaflZNqNlqWfOjgZpZLXEFfU12H5ai3y0Io6yIKE883jp6FRnuP9VM7rNT860TMdWhUdFUwl7QBk-&format=jpg);*/
+    /*height:1000px;*/
+    /*-webkit-filter: blur(10px);*/
+    /*filter: blur(10px);*/
+    /*filter:20px;*/
+    /*width:100%;*/
+    /*background-position: center;*/
+    /*position: absolute;*/
+    /*padding:10px 10px;*/
+/*}*/
+                     /*this code below works for <p> & <h1>*/
+/*.header-context-inner,.h1{*/
+/*    color:white;*/
+/*    text-align: center;*/
+/*    transform: translate(0%,10%);*/
+/*}*/
+/*span{*/
+/*    position:relative;*/
+/*    position:absolute;*/
+    /*z-index:9999;*/
+/*    -webkit-filter: blur(0px);*/
+/*    -moz-filter: blur(0px);*/
+/*    -o-filter: blur(0px);*/
+/*    -ms-filter: blur(13px);*/
+/*    filter: blur(0px);*/
+/*}*/
+header .header-content .header-content-inner h1{ 
+    color:blue;
+    /*color:blue;*/
+    /*text-align: center;*/
+    /*margin-bottom:10px;*/
+    /*transform: translate(0%,0%);*/
+    /*font-weight: bold;*/
+    /*position:relative;*/
+    /*position: absolute;*/
+    /*width:10%;*/
+    /*top:100px;*/
+}
+header .header-content .header-content-inner hr{
+    margin: 30px auto;
+}
+hr{
+    border-color: orange;
+    border-width:3px;
+    top:100px;
+    width:5%;
+    transform: translate(945%,2600%);
+    /*border:0;*/
+    /*height:0;*/
+    /*border-top:1px solid #eee;*/
+    position: absolute;
+}
+header .header-content .header-content-inner p{
+    color:white;
+    transform:translate(-23%,10%);
+    text-align: center;
+    font-size: 30px;
+    position:absolute;
+    top:200px;
+    width:100% 
+}
+.c-4{
+    height:950px;
+}
+
+/*bg-1 .h3{*/
+/*     color:black;*/
+     /*text-align: center;*/
+/* }*/
+/* .bg-1 container, p{*/
+/*    color:black;*/
+/*} */
+.text-center{
+    text-align: center;
+}
+ 
+
+        /*background fade image making the image change to lighter colors*/
+/*.jumbotron,bg{*/
+/*    background: linear-gradient(rgba(255,255,255,.15),rgba(255,255,255,0.15)), url("https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTc5E07z9MxQbE8_zf3dfkHAvhUwKypArmlH_DooaTu0fAepALRpk7CbTmrRH92u0iXMyYI9BfQpaqm9u6aVB4fmTTv4fLgWrsqaflZNqNlqWfOjgZpZLXEFfU12H5ai3y0Io6yIKE883jp6FRnuP9VM7rNT860TMdWhUdFUwl7QBk-&format=jpg") center;*/
+/*    background-size: cover;*/
+/*    height:960px;*/
+/*}*/
+.navbar .navbar-brand{
+    color:rgb(180,180,180);
+    font-weight: 600;
+    font-size: 30px;
+    padding:15px 15px;
+}
+.navbar .navbar-right li a{
+ color:rgb(180,180,180);
+ font-weight:600 ;
+ font-size:18px;
+}
+.navbar-default{
+    background-color: transparent;
+    border-color: rgb(255,255,255,.0);
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+/*.jumbotron{*/
+/*    padding:200px 100px;*/
+/*    height:100px 100px;*/
+    /*background-image: url(https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTc5E07z9MxQbE8_zf3dfkHAvhUwKypArmlH_DooaTu0fAepALRpk7CbTmrRH92u0iXMyYI9BfQpaqm9u6aVB4fmTTv4fLgWrsqaflZNqNlqWfOjgZpZLXEFfU12H5ai3y0Io6yIKE883jp6FRnuP9VM7rNT860TMdWhUdFUwl7QBk-&format=jpg);*/
+/*    background-size: cover;*/
+    /*-webkit-filter: blur(10px);*/
+    
+    /*filter: blur(10px);*/
+
+/*}*/
+.container{
+    margin-left: auto;
+    margin-right:auto;
+}
+/*.bg{*/
+/*    -webkit-filter: blur(5px);*/
+/*    filter:blur(5px);*/
+/*}*/
+header .c-4, .bo3{
+    /*background-image: url(https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTc5E07z9MxQbE8_zf3dfkHAvhUwKypArmlH_DooaTu0fAepALRpk7CbTmrRH92u0iXMyYI9BfQpaqm9u6aVB4fmTTv4fLgWrsqaflZNqNlqWfOjgZpZLXEFfU12H5ai3y0Io6yIKE883jp6FRnuP9VM7rNT860TMdWhUdFUwl7QBk-&format=jpg);*/
+    -webkit-filter: blur(5px);
+    filter:blur(5px);
+    background-position: center;
+    background-position: top;
+    height:950px;
+    width:100%;
+}
+/*c-4 header-content, .bo3{*/
+     /*position: absolute;*/
+/*    -webkit-filter: blur(13px);*/
+/*    -moz-filter: blur(13px);*/
+/*    -o-filter: blur(13px);*/
+/*    -ms-filter: blur(13px);*/
+/*    filter: blur(13px);*/
+/*}*/
